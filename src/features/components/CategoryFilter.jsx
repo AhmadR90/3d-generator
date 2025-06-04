@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "../../Components/UI/Button";
 
 const CategoryFilter = ({ categories, activeCategory, onCategoryChange }) => {
   return (

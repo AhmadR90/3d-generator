@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Loader, Eye, Download, Camera, ImageIcon } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '../../Components/UI/Button';
 import { toast } from 'sonner';
 import { useGLTF } from '@react-three/drei';
 

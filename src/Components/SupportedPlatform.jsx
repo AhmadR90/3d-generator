@@ -11,7 +11,7 @@ const SupportedPlatforms = () => {
       <div className='max-w-7xl mx-auto py-0'>
         <div className='text-center mb-10'>
           <motion.h2
-            className='section-heading'
+            className='section-heading text-6xl font-bold mb-2'
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-100px' }}
@@ -24,7 +24,7 @@ const SupportedPlatforms = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className='section-subheading text-xs'
+            className='section-subheading text-xl'
           >
             Seamlessly integrate with your favorite 3D modeling software
           </motion.p>
